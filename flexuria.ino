@@ -50,9 +50,7 @@ void loop() {
   }
   else if (sensorValueTwo > 200)  word2 = "will";
 
-  if{
-    (sensorValueTwo == 676) word2 = "link";
-  }
+
 
 
   // Sensor 3
@@ -80,3 +78,4 @@ void loop() {
 
   delay(1500);
 }
+
